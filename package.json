@@ -6,6 +6,10 @@
   "scripts": {
     "test": "grunt test"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tq1/br-tq1-doc-images.git"
+  },
   "author": "Felipe Sabino <felipe@taqtile.com>",
   "license": "MIT",
   "dependencies": {
