@@ -1,0 +1,29 @@
+{
+  "name": "tq1-docs",
+  "version": "1.0.0",
+  "description": "TQ1 document generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "author": "Felipe Sabino <felipe@taqtile.com>",
+  "license": "MIT",
+  "dependencies": {
+    "coffee-script": "1.9.1",
+    "mermaid": "0.4.0",
+    "glob": "4.0.2",
+    "async": "~0.9.0",
+    "phantomjs": "1.9.16"
+  },
+  "devDependencies": {
+    "rootpath": "0.1.2",
+    "chai": "1.10.0",
+    "mocha": "1.21.5",
+    "grunt": "0.4.5",
+    "grunt-cli": "0.1.13",
+    "grunt-mocha-test": "0.11.0",
+    "grunt-nodemon": "0.4.0",
+    "load-grunt-tasks": "3.1.0",
+    "colors": "1.0.3"
+  }
+}
