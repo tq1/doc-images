@@ -1,14 +1,10 @@
 # Doc Images
 
+[![NPM](https://nodei.co/npm/docs-images.png)](https://nodei.co/npm/docs-images/)
+
 ## Usage
 
-1. Add `br-tq1-doc-images` dependency to your `package.json`
-
-  ```json
-  "dependencies": {
-    "br-tq1-doc-images": "git+https://github.com/tq1/br-tq1-doc-images.git"
-  }
-  ```
+1. Add `npm install docs-images` to you `package.json`
   
 2. Create the text file with [mermaid](http://knsv.github.io/mermaid/)`. Try using the [editor](http://knsv.github.io/mermaid/live_editor/).
 
@@ -21,16 +17,16 @@
 ## Example
 
   ```
-  var tq1docs = require('br-tq1-doc-images');
+  var docs-images = require('doc-images');
   tq1docs.generate({
     source_path: 'docs/src',
     source_extension: 'txt',
     images_path: 'docs/images'
   }, function(err) {
     if (err) {
-      console.error('errr generating docs: ' + err);
+      console.log('errr generating docs: ' + err);
     } else {
-      console.info('docs generated :)');
+      console.log('docs generated :)');
     }
   });
   ```
