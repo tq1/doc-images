@@ -16,17 +16,17 @@
 
 ## Example
 
-  ```
-  var docs-images = require('doc-images');
-  tq1docs.generate({
-    source_path: 'docs/src',
-    source_extension: 'txt',
-    images_path: 'docs/images'
-  }, function(err) {
-    if (err) {
-      console.log('errr generating docs: ' + err);
-    } else {
-      console.log('docs generated :)');
-    }
-  });
-  ```
+```javascript
+var docs = require('docs-images');
+docs.generate({
+  source_path: './src',
+  source_extension: 'txt',
+  images_path: './images'
+}, function(err) {
+  if (err) {
+    console.log('errr generating docs: ' + err);
+  } else {
+    console.log('docs generated :)');
+  }
+});
+```
