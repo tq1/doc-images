@@ -1,6 +1,6 @@
 {
   "name": "docs-images",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "TQ1 document generator",
   "main": "index.js",
   "scripts": {
