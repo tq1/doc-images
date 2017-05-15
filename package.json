@@ -1,6 +1,6 @@
 {
   "name": "docs-images",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "TQ1 document generator",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "coffee-script": "1.9.1",
-    "mermaid": "0.4.0",
+    "mermaid": "0.5.0",
     "glob": "4.0.2",
     "async": "~0.9.0",
     "rootpath": "0.1.2",
